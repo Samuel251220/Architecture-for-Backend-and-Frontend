@@ -1,6 +1,6 @@
 <%-- 
-    Document   : contacto
-    Created on : 03/06/2018, 04:34:57 PM
+    Document   : reportes
+    Created on : 07/06/2018, 06:06:56 PM
     Author     : asus
 --%>
 
@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1 class="title">Contacto!</h1>
+        <h1>Hello World!</h1>
     </body>
 </html>
