@@ -141,7 +141,7 @@ a:hover{
   background: red;
 }
 .pro1:hover .imgpro{
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 .desc1{
   z-index: 99;

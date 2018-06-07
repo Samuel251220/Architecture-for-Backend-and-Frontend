@@ -64,7 +64,7 @@ public final class productos_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<link rel=\"stylesheet\" href=\"../css/nosotros.css\"/>\r\n");
       out.write("<link rel=\"stylesheet\" href=\"../css/productos.css\"/>\r\n");
       out.write("<link rel=\"stylesheet\" href=\"../css/registrate.css\"/>\r\n");
-      out.write("<link rel=\"stylesheet\" href=\"../css/secion\"/>\r\n");
+      out.write("\r\n");
       out.write("\r\n");
       out.write("<link rel=\"stylesheet\" href=\"../css/inicio.css\"/>\r\n");
       out.write("\r\n");

@@ -1,0 +1,22 @@
+SMAP
+multimedia_jsp.java
+JSP
+*S JSP
+*F
++ 0 multimedia.jsp
+view/roles/multimedia.jsp
++ 1 LinksRolesHead.jspf
+view/roles/../../WEB-INF/template/LinksRolesHead.jspf
++ 2 VarUsuario.jspf
+view/roles/../../WEB-INF/template/VarUsuario.jspf
++ 3 LinksRolesFooter.jspf
+view/roles/../../WEB-INF/template/LinksRolesFooter.jspf
+*L
+5,9:51
+1#1,8:60
+13#0,5:67
+1#2,35:72
+17#0,42:106
+1#3,6:148
+58#0,4:153
+*E

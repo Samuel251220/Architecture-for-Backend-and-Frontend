@@ -10,10 +10,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>TABLA DE USUARIOS</title>
-        <%@include file="../WEB-INF/template/LinksRolesHead.jspf" %>
+        <%@include file="../../WEB-INF/template/LinksRolesHead.jspf" %>
+        <link rel="stylesheet" href="../../css/usuariosTab.css"/>
     </head>
     <body>
-        <%@include file="../WEB-INF/template/VarGerente.jspf" %>
+        <%@include file="../../WEB-INF/template/VarAdmini.jspf" %>
         <h2 class="titulo">TABLA DE USUARIOS</h2>
 	<div class="container contenedor">
 		<table class="table table-striped ">
@@ -59,6 +60,6 @@
 		  </tbody>
 		</table>
 	</div>
-        <%@include file="../WEB-INF/template/LinksRolesFooter.jspf" %>
+        <%@include file="../../WEB-INF/template/LinksRolesFooter.jspf" %>
     </body>
 </html>
