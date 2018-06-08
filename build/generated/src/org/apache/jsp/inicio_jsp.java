@@ -134,7 +134,7 @@ public final class inicio_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t</header>\r\n");
       out.write("\r\n");
       out.write("\n");
-      out.write("        <div class=\"topSlider\">\n");
+      out.write("        <div class=\"topSlider\"> \n");
       out.write("            <span>\n");
       out.write("                <h1 class=\"bb\">GIMNASIO</h1>   \n");
       out.write("                <h2 class=\"bb\">STRONGER</h2>\n");
