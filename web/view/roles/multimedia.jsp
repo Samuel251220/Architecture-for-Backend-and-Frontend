@@ -15,7 +15,7 @@
   </head>
   <body>
     <%@include file="../../WEB-INF/template/VarUsuario.jspf" %>
-    <div class="contenedor">
+    <div class="contenedor"   >
       <div class="contenedor_tarjeta">
         <a href="#">
           <figure id="tarjeta">
