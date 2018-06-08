@@ -15,7 +15,7 @@
     </head>
     <body>
       <%@include file="../../WEB-INF/template/VarUsuario.jspf" %>
-        <div class="container">
+        <div class="container"     >
           <div class="busqueda">
             <h2 style="margin: 0; font-size: 25px;">Mis compras</h2>
             <div class="input-group stylish-input-group cont navbar-right">
