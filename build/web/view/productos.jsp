@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Productos</title>
         <%@include file="../WEB-INF/template/HeadMainLinks.jspf" %>
-        <link rel="stylesheet" href="../css/producto.css">
+        <link rel="stylesheet" href="./css/producto.css">
     </head>
     <body>
         <%@include file="../WEB-INF/template/HeadVarMain.jspf" %>
@@ -59,7 +59,7 @@
                     <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
                   </div>
                 </div>
-                <div class="imgpro"><img src="../img/prod1.jpg"></div>
+                <div class="imgpro new  "><img src="../img/prod1.jpg"></div>
               </li>
               <li class="pro" id="pro">
                 <div class="desc">

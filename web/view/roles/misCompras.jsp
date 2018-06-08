@@ -11,9 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <%@include file="../../WEB-INF/template/LinksRolesHead.jspf" %>
-        <link rel="stylesheet" href="../../css/reportes.css"/>
+        <link rel="stylesheet" href="././css/reportes.css"/>
     </head>
     <body>
+      <%@include file="../../WEB-INF/template/VarUsuario.jspf" %>
         <div class="container">
           <div class="busqueda">
             <h2 style="margin: 0; font-size: 25px;">Mis compras</h2>
