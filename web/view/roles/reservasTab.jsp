@@ -10,10 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>TABLA DE RESERVAS</title>
-        <%@include file="../WEB-INF/template/LinksRolesHead.jspf" %>
+        <%@include file="../../WEB-INF/template/LinksRolesHead.jspf" %>
     </head>
     <body>
-        <%@include file="../WEB-INF/template/VarGerente.jspf" %>
+        <%@include file="../WEB-INF/template/VarAdmini.jspf" %>
         <h2 class="titulo">TABLA DE RESERVAS</h2>
 	<div class="container contenedor">
 		<table class="table table-striped ">

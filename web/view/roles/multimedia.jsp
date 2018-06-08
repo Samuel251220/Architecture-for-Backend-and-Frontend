@@ -24,7 +24,7 @@
 						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
 						<hr>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>	
+					</figcaption>
 				</figure>
 			</a>
 		</div>

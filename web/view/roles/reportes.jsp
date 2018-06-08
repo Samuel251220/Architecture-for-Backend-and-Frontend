@@ -10,12 +10,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" href="../../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../css/VarRoles.css">
+        <%@include file="../../WEB-INF/template/LinksRolesHead.jspf" %>
         <link rel="stylesheet" href="../../css/reportes.css"/>
     </head>
     <body>
-      <div class="container">
+        <%@include file="../../WEB-INF/template/VarAdmini.jspf" %>
+      <div class="conteiner">
         <div class="reserva">
           <div class="busqueda">
             <h2 style="margin: 0;">Reserva</h2>
