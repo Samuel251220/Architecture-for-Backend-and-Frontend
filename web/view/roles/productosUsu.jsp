@@ -10,8 +10,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <%@include file="../../WEB-INF/template/LinksRolesHead.jspf" %>
+        
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%@include file="../../WEB-INF/template/VarUsuario.jspf" %>
+        <h1>Productos de Usuarios!</h1>
+        <%@include file="../../WEB-INF/template/FooterMainRoles.jspf" %>
+        <%@include file="../../WEB-INF/template/LinksRolesFooter.jspf" %>
     </body>
 </html>

@@ -59,6 +59,7 @@
 		  </tbody>
 		</table>
 	</div>
+        <%@include file="../../WEB-INF/template/FooterMainRoles.jspf" %>
         <%@include file="../WEB-INF/template/LinksRolesFooter.jspf" %>
     </body>
 </html>

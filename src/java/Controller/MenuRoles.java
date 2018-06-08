@@ -5,7 +5,6 @@
  */
 package Controller;
 
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -18,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author asus
  */
-public class Menu extends HttpServlet {
+public class MenuRoles extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -32,25 +31,31 @@ public class Menu extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         PrintWriter out = response.getWriter();
-        int op = Integer.parseInt(request.getParameter("op"));
+        int op = Integer.parseInt(request.getParameter("opc"));
         RequestDispatcher rd;
         switch(op){
-            case 1: rd= request.getRequestDispatcher("inicio.jsp");
+            case 1: rd= request.getRequestDispatcher("view/roles/multimedia.jsp");
                     rd.forward(request, response);
                     break;
-            case 2: rd= request.getRequestDispatcher("view/nosotros.jsp");
+            case 2: rd= request.getRequestDispatcher("view/roles/productosUsu.jsp");
                     rd.forward(request, response);
                     break;
-            case 3: rd= request.getRequestDispatcher("view/productos.jsp");
+            case 3: rd= request.getRequestDispatcher("view/roles/misPedidos.jsp");
                     rd.forward(request, response);
                     break;
-            case 4: rd= request.getRequestDispatcher("view/registrate.jsp");
+            case 4: rd= request.getRequestDispatcher("view/roles/misCompras.jsp");
                     rd.forward(request, response);
                     break;
-            case 5: rd= request.getRequestDispatcher("view/sesion.jsp");
+            case 5: rd= request.getRequestDispatcher("view/roles/usuariosTab.jsp");
                     rd.forward(request, response);
                     break;
-            case 6: rd= request.getRequestDispatcher("view/roles/misCompras.jsp");
+            case 6: rd= request.getRequestDispatcher("view/roles/reservasTab.jsp");
+                    rd.forward(request, response);
+                    break;
+            case 7: rd= request.getRequestDispatcher("view/roles/productosTab.jsp");
+                    rd.forward(request, response);
+                    break;
+            case 8: rd= request.getRequestDispatcher("view/roles/reportes.jsp");
                     rd.forward(request, response);
                     break;
         }

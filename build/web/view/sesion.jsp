@@ -36,7 +36,7 @@
             </div>
             <br><br>
             <div class="divB">
-              <input type="button" value="Iniciar Sesion" class="btnL">
+              <input type="button" value="Iniciar Sesion" class="btnL"><li class="bar"><a href="menu?op=6">Entrar/a></li>
             </div>
           </form>
         </div>

@@ -2,3 +2,4 @@
 <%@ page pageEncoding="UTF-8" %>
 <link rel="stylesheet" href="../../css/bootstrap.min.css">
 <link rel="stylesheet" href="../../css/VarRoles.css"/>
+<link rel="stylesheet" href="../../css/FooterMainRoles.css"/>

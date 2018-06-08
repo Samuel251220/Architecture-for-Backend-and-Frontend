@@ -21,10 +21,10 @@
 
 				    <ul class="nav navbar-nav">
 				      
-				        <li class="bar"><a href="#">Usuarios</a></li><!-- class="active"-->
-				        <li class="bar"><a href="#">Reserva</a></li>
-				        <li class="bar"><a href="#">Productos</a></li>
-				        <li class="bar"><a href="#">Reportes</a></li>
+				        <li class="bar"><a href="menur?opc=5">Usuarios</a></li><!-- class="active"-->
+				        <li class="bar"><a href="menur?opc=6">Reserva</a></li>
+				        <li class="bar"><a href="menur?opc=7">Productos</a></li>
+				        <li class="bar"><a href="menur?opc=8">Reportes</a></li>
 				        <li class="bar cont-flecha"><i class="far fa-arrow-alt-circle-right flecha"></i></li>
 				    	
 				    </ul> 

@@ -21,10 +21,10 @@
 
 				    <ul class="nav navbar-nav">
 				      
-				        <li class="bar"><a href="#">Multimedia</a></li><!-- class="active"-->
-				        <li class="bar"><a href="#">Productos</a></li>
-				        <li class="bar"><a href="#">Mis Pedidos</a></li>
-				        <li class="bar"><a href="#">Mis Compras</a></li>
+				        <li class="bar"><a href="menur?opc=1">Multimedia</a></li><!-- class="active"-->
+				        <li class="bar"><a href="menur?opc=2">Productos</a></li>
+				        <li class="bar"><a href="menur?opc=3">Mis Pedidos</a></li>
+				        <li class="bar"><a href="menur?opc=4">Mis Compras</a></li>
 				        <li class="bar cont-flecha"><i class="far fa-arrow-alt-circle-right flecha"></i></li>
 				    	
 				    </ul> 
