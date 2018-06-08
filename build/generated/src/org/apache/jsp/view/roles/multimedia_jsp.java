@@ -59,11 +59,8 @@ public final class multimedia_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        ");
       out.write("\n");
       out.write("\n");
-      out.write("<link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\n");
-      out.write("<link rel=\"stylesheet\" href=\"../css/VarRoles.css\"/>\n");
-      out.write("<link rel=\"stylesheet\" href=\"../css/reservasTab.css\"/>\n");
-      out.write("<link rel=\"stylesheet\" href=\"../css/usuariosTab.css\"/>\n");
-      out.write("<link rel=\"stylesheet\" href=\"../css/producto.css\">\n");
+      out.write("<link rel=\"stylesheet\" href=\"../../css/bootstrap.min.css\">\n");
+      out.write("<link rel=\"stylesheet\" href=\"../../css/VarRoles.css\"/>\n");
       out.write("\n");
       out.write("        <link rel=\"stylesheet\" href=\"../../css/multimedia.css\"/>\n");
       out.write("    </head>\n");
@@ -147,9 +144,9 @@ public final class multimedia_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        ");
       out.write("\n");
       out.write("\n");
-      out.write("<script src=\"../js/jquery-3.3.1.min.js\"></script>\n");
-      out.write("<script src=\"../js/bootstrap.min.js\"></script>\n");
-      out.write("<script src=\"../js/fontawesome-all.js\"></script>\n");
+      out.write("<script src=\"../../js/jquery-3.3.1.min.js\"></script>\n");
+      out.write("<script src=\"../../js/bootstrap.min.js\"></script>\n");
+      out.write("<script src=\"../../js/fontawesome-all.js\"></script>\n");
       out.write("\n");
       out.write("    </body>\n");
       out.write("</html>\n");
