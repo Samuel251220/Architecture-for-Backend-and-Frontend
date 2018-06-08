@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
@@ -7,3 +8,21 @@
         </group>
     </open-files>
 </project-private>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym2.0/web/inicio.jsp</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym2.0/web/css/producto.css</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym2.0/web/view/roles/misCompras.jsp</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym2.0/web/view/roles/productosUsu.jsp</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym2.0/web/view/productos.jsp</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym2.0/web/view/roles/reportes.jsp</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym2.0/web/js/producto.js</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym2.0/web/view/roles/misPedidos.jsp</file>
+        </group>
+    </open-files>
+</project-private>
+>>>>>>> dcfde571a176b66b79cf98094391b1bb9d9e6441
