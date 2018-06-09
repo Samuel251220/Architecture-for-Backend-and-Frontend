@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>JSP Page</title>
     <%@include file="../../WEB-INF/template/LinksRolesHead.jspf" %>
-    <link rel="stylesheet" href="../../css/producto.css">
+    <link rel="stylesheet" href="././css/producto.css">
   </head>
   <body>
     <%@include file="../../WEB-INF/template/VarUsuario.jspf" %>
@@ -45,7 +45,7 @@
                 <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
               </div>
             </div>
-            <div class="imgpro new"><img src="../../img/prod1.jpg"></div>
+            <div class="imgpro new"><img src="././img/prod1.jpg"></div>
           </li>
           <li class="pro" id="pro">
             <div class="desc">
@@ -59,7 +59,7 @@
                 <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
               </div>
             </div>
-            <div class="imgpro"><img src="../../img/prod1.jpg"></div>
+            <div class="imgpro"><img src="././img/prod1.jpg"></div>
           </li>
           <li class="pro" id="pro">
             <div class="desc">
@@ -73,7 +73,7 @@
                 <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
               </div>
             </div>
-            <div class="imgpro"><img src="../../img/prod1.jpg"></div>
+            <div class="imgpro"><img src="././img/prod1.jpg"></div>
           </li>
           <li class="pro" id="pro">
             <div class="desc">
@@ -87,7 +87,7 @@
                 <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
               </div>
             </div>
-            <div class="imgpro"><img src="../../img/prod1.jpg"></div>
+            <div class="imgpro"><img src="././img/prod1.jpg"></div>
           </li>
           <li class="pro" id="pro">
             <div class="desc">
@@ -101,7 +101,7 @@
                 <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
               </div>
             </div>
-            <div class="imgpro new"><img src="../../img/prod1.jpg"></div>
+            <div class="imgpro new"><img src="././img/prod1.jpg"></div>
           </li>
         </ul>
       </div>
@@ -112,7 +112,7 @@
           <div class="modal-header">
             <h4>Nombre del Producto</h4>
           </div>
-          <img src="../../img/prod1.jpg" style="width: 100%;">
+          <img src="././img/prod1.jpg" style="width: 100%;">
           <div class="modal-dialog" style="text-align: center;width: 100%;">
             <h5>Pequeña descripcion del producto.</h5>
             <h2>S/ 50.00</h2>
@@ -124,6 +124,6 @@
       </div>
     </div>
     <%@include file="../../WEB-INF/template/LinksRolesFooter.jspf" %>
-    <script src="../../js/producto.js"></script>
+    <script src="././js/producto.js"></script>
   </body>
 </html>
