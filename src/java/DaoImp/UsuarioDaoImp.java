@@ -23,14 +23,14 @@ public class UsuarioDaoImp implements UsuarioDao{
     HashMap<String, Object> map = new HashMap<>();
     try {
       cx = Conexion.getConexion();
-      cst = cx.prepareCall("{call validarUser(?,?)}");
+      cst = cx.prepareCall("{call validarLogin(?,?)}");
       cst.setString(1, x);
       cst.setString(2, y);
       rs = cst.executeQuery();
       while (rs.next()) {
         map.put("idu", rs.getInt("idUsuario"));
         map.put("cla", y);
-        map.put("nick", rs.getString("nick"));
+        map.put("nick", rs.getString("Nick"));
         map.put("nom", rs.getString("NomPersona"));
         map.put("apell", rs.getString("ApePersona"));
         map.put("tipo", rs.getString("NomTipo"));

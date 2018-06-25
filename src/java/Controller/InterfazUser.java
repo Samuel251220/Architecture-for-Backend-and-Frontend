@@ -32,10 +32,10 @@ public class InterfazUser extends HttpServlet {
           throws ServletException, IOException {
     response.setContentType("text/html;charset=UTF-8");
     PrintWriter out = response.getWriter();
+    System.out.println("llego");
     RequestDispatcher rd;
     rd = request.getRequestDispatcher("inicio.jsp");
     rd.forward(request, response);
-
   }
 
   // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
