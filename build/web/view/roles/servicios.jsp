@@ -27,7 +27,7 @@
                             <div class="card">
                                 <div class="front">
                                     <div class="cover">
-                                        <img src="././img/servicios1-portada.png"/>
+                                        <img src="././img/servicios-portada1.png"/>
                                     </div>
                                     <div class="user">
                                         <img class="img-circle" src="././img/servicios1.jpg"/>
@@ -89,7 +89,7 @@
                             <div class="card">
                                 <div class="front">
                                     <div class="cover">
-                                        <img src="././img/servicios1-portada.png"/>
+                                        <img src="././img/servicios-portada2.jpg"/>
                                     </div>
                                     <div class="user">
                                         <img class="img-circle" src="././img/servicios2.jpg"/>
@@ -152,7 +152,7 @@
                             <div class="card">
                                 <div class="front">
                                     <div class="cover">
-                                        <img src="././img/servicios1-portada.png"/>
+                                        <img src="././img/servicios-portada3.jpg"/>
                                     </div>
                                     <div class="user">
                                         <img class="img-circle" src="././img/servicios3.jpg"/>
