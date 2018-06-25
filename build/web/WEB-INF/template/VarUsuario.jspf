@@ -45,7 +45,7 @@
                 <li class="bar"><a href="menur?opc=3">Mis Pedidos</a></li><br>
                 <li class="bar"><a href="menur?opc=4">Mis Compras</a></li><br>
                 <li class="bar"><a href="menur?opc=9">Servicios</a></li><br>
-                <li class="bar cont-flecha"><i class="fas fa-door-open flecha"></i></li>
+                <li class="bar cont-flecha"><a href="menur?opc=10"><i class="fas fa-door-open flecha"></i></a></li>
             </ul>
 
             
