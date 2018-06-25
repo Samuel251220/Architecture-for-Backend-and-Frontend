@@ -17,6 +17,10 @@
         <servlet-name>MenuRoles</servlet-name>
         <servlet-class>Controller.MenuRoles</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>InterfazUser</servlet-name>
+        <servlet-class>Controller.InterfazUser</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>/faces/*</url-pattern>
@@ -28,6 +32,10 @@
     <servlet-mapping>
         <servlet-name>MenuRoles</servlet-name>
         <url-pattern>/menur</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InterfazUser</servlet-name>
+        <url-pattern>/user</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

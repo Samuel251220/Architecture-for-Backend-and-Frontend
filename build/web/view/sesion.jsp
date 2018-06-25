@@ -21,9 +21,9 @@
           <form class="formu">
             <div class="divI">
               <label>Ususario:</label>
-              <input type="text" placeholder="Enter username" class="txt"><br><br>
+              <input type="text" placeholder="Enter username" class="txt" id="nick"><br><br>
               <label>Contraseña: </label>
-              <input type="password" placeholder="Enter password" class="txt">
+              <input type="password" placeholder="Enter password" class="txt" id="pass">
             </div>
             <br><br>
             <div class="divO">
@@ -36,12 +36,13 @@
             </div>
             <br><br>
             <div class="divB">
-              <input type="button" value="Iniciar Sesion" class="btnL"><li class="bar"><a href="menu?op=6">Entrar</a></li>
+              <input type="button" value="Iniciar Sesion" class="btnL" id="validar">
             </div>
           </form>
         </div>
       </div>
         <%@include file="../WEB-INF/template/FooterMain.jspf" %>
         <%@include file="../WEB-INF/template/FooterMainLinks.jspf" %> 
+        <script src="./js/login.js"></script>
     </body>
 </html>

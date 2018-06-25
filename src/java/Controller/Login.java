@@ -6,8 +6,8 @@
 package Controller;
 
 import Dao.UsuarioDao;
-//import DaoImp.UsuarioDaoImp;
-//import com.google.gson.Gson;
+import DaoImp.UsuarioDaoImp;
+import com.google.gson.Gson;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
@@ -26,8 +26,8 @@ import javax.servlet.http.HttpSession;
  */
 @WebServlet(name = "Login", urlPatterns = {"/lg"})
 public class Login extends HttpServlet {
-  //private UsuarioDao ud = new UsuarioDaoImp();
-  //private Gson g = new Gson();
+  private UsuarioDao ud = new UsuarioDaoImp();
+  private Gson g = new Gson();
   /**
    * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
    * methods.
@@ -44,9 +44,8 @@ public class Login extends HttpServlet {
     int op = Integer.parseInt(request.getParameter("op"));
     HttpSession sesion = request.getSession();
     RequestDispatcher rds;
-    ServletContext context = getServletContext();
     HashMap<String, Object> datos = new HashMap<>();
-    //datos = ud.validar(request.getParameter("user"), request.getParameter("pass"));
+    datos = ud.validar(request.getParameter("user"), request.getParameter("pass"));
     //System.out.println("Error: "+datos.size());
     switch (op) {
       case 1:
