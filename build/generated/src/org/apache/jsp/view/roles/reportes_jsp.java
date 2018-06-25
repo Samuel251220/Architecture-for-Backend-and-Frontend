@@ -64,7 +64,7 @@ public final class reportes_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<link rel=\"stylesheet\" href=\"././css/VarRoles.css\"/>\r\n");
       out.write("<link rel=\"stylesheet\" href=\"././css/FooterMainRoles.css\"/>\r\n");
       out.write("\r\n");
-      out.write("        <link rel=\"stylesheet\" href=\"../../css/reportes.css\"/>\r\n");
+      out.write("        <link rel=\"stylesheet\" href=\"././css/reportes.css\"/>\r\n");
       out.write("    </head>\r\n");
       out.write("    <body>\r\n");
       out.write("        ");
@@ -235,6 +235,7 @@ public final class reportes_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<script src=\"././js/jquery-3.3.1.min.js\"></script>\r\n");
       out.write("<script src=\"././js/bootstrap.min.js\"></script>\r\n");
       out.write("<script src=\"././js/fontawesome-all.js\"></script>\r\n");
+      out.write("<script src=\"././js/VarUsuario.js\"></script>\r\n");
       out.write("\r\n");
       out.write("    </body>\r\n");
       out.write("</html>\r\n");

@@ -11,11 +11,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <%@include file="../../WEB-INF/template/LinksRolesHead.jspf" %>
-        <link rel="stylesheet" href="././css/reportes.css"/>
+        <link rel="stylesheet" href="././css/tablas.css"/>
     </head>
     <body>
       <%@include file="../../WEB-INF/template/VarUsuario.jspf" %>
-        <div class="container"     >
+        <div class="container">
           <div class="busqueda">
             <h2 style="margin: 0; font-size: 25px;">Mis compras</h2>
             <div class="input-group stylish-input-group cont navbar-right">
@@ -27,8 +27,8 @@
               </span>
             </div>
           </div>
-          <div class="tabla" style="margin: 5% 0;">
-            <table class="table">
+          <div class="tabla " style="margin: 5% 0;">
+            <table class="table ">
               <thead style="background: #343a40;color: #fff;">
                 <tr>
                   <th scope="col">#</th>
@@ -68,6 +68,10 @@
             </table>
           </div>
         </div>
+        
+        </div>
+    </div>
+
         <%@include file="../../WEB-INF/template/LinksRolesFooter.jspf" %>
     </body>
 </html>

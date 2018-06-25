@@ -39,3 +39,7 @@ tbody > tr{
 tbody > tr:hover{
   background: #FBB829;
 }
+
+.tabla{
+    width: 90%;
+}

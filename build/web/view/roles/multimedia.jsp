@@ -70,7 +70,9 @@
                 </div>
             </div>
         </div>
-        <%@include file="../../WEB-INF/template/FooterMainRoles.jspf" %>
+    </div>
+</div>
+
         <%@include file="../../WEB-INF/template/LinksRolesFooter.jspf" %>
     </body>
 </html>
