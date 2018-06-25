@@ -60,10 +60,9 @@ public class MenuRoles extends HttpServlet {
                     break;
             case 9: rd= request.getRequestDispatcher("view/roles/servicios.jsp");
                     rd.forward(request, response);
-                    break;
+                    
             case 10:rd= request.getRequestDispatcher("inicio.jsp");
                     rd.forward(request, response);
-                    break;
         }
     }
 
